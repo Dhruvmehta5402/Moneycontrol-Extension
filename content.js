@@ -28,9 +28,9 @@ message = message + "\n";
 message = message + articles;
 
 function sendMail() {
-    var link = "mailto:dhruvmehtakolkata@gmail.com"
-             + "?cc=botweb91@gmail.com"
-             + "&subject=" + encodeURIComponent("Moneycontrol Stock Reccomendations")
+    var link = "mailto:botweb91@gmail.com"
+             + "?cc="
+             + "&subject=" + encodeURIComponent("Moneycontrol Stock Digest")
              + "&body=" + encodeURIComponent(message)
     ;
     window.location.href = link;
